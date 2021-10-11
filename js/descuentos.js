@@ -34,7 +34,7 @@ function priceDiscount(){
     result.innerText = "LO SENTIMOS ESTE CUPON NO ES VALIDO 😥"; 
     }else{
        const result = document.getElementById("result");
-    result.innerText = "Genial 😄 tienes un cupon con descuento de " + descount + "% \nEl precio con descuento son $ " + precioConDescuento + ". "; 
+    result.innerText = "Genial 😄 tienes un cupon con descuento de " + descount + "% \nEl Total a pagar con descuento son $ " + precioConDescuento + ". "; 
     }
     
 };
